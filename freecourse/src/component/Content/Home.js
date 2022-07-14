@@ -8,6 +8,7 @@ const Home=()=>{
         <Banner/>
         <HomeOption/>
         <Lesson/>
+        
         </>
     )
 }

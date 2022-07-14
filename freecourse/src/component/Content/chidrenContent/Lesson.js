@@ -11,7 +11,7 @@ const Lesson = () => {
                         <div className="col-auto">
                             <div className="sectionTitle ">
                                 <h2 className="sectionTitle__title text-white">
-                                    Start your Learning Journey Today!
+                                   Ours teacher
                                 </h2>
                                 <p className="sectionTitle__text text-white">
                                     Lorem ipsum dolor sit amet, consectetur.
@@ -29,14 +29,14 @@ const Lesson = () => {
                         >
                             <div className="coursesCard -type-2 text-center pt-50 pb-40 px-30 rounded-8 bg-white shadow-2">
                                 <div className="coursesCard__image">
-                                    <img src="img/home-5/learning/1.svg" alt="image" />
+                                    <img src="img/home-9/hero/4.png" alt="image" />
                                 </div>
                                 <div className="coursesCard__content mt-30">
                                     <h5 className="coursesCard__title text-18 lh-1 fw-500">
-                                        Learn with Experts
+                                    Alexandra
                                     </h5>
                                     <p className="coursesCard__text text-14 mt-10">
-                                        Grursus mal suada faci lisis that ipsum ameti consecte.
+                                    34 Bach Dang street, Hai Chau district, Da Nang city
                                     </p>
                                 </div>
                             </div>
@@ -47,14 +47,14 @@ const Lesson = () => {
                         >
                             <div className="coursesCard -type-2 text-center pt-50 pb-40 px-30 rounded-8 bg-white shadow-2">
                                 <div className="coursesCard__image">
-                                    <img src="img/home-5/learning/2.svg" alt="image" />
+                                    <img src="img/home-9/hero/3.png" alt="image" />
                                 </div>
                                 <div className="coursesCard__content mt-30">
                                     <h5 className="coursesCard__title text-18 lh-1 fw-500">
-                                        Learn Anything
+                                    Brianna
                                     </h5>
                                     <p className="coursesCard__text text-14 mt-10">
-                                        Grursus mal suada faci lisis that ipsum ameti consecte.
+                                    34 Bach Dang street, Hai Chau district, Da Nang city
                                     </p>
                                 </div>
                             </div>
@@ -65,14 +65,14 @@ const Lesson = () => {
                         >
                             <div className="coursesCard -type-2 text-center pt-50 pb-40 px-30 rounded-8 bg-white shadow-2">
                                 <div className="coursesCard__image">
-                                    <img src="img/home-5/learning/3.svg" alt="image" />
+                                    <img src="img/home-9/hero/3.png" alt="image" />
                                 </div>
                                 <div className="coursesCard__content mt-30">
                                     <h5 className="coursesCard__title text-18 lh-1 fw-500">
-                                        Flexible Learning
+                                        Flexible 
                                     </h5>
                                     <p className="coursesCard__text text-14 mt-10">
-                                        Grursus mal suada faci lisis that ipsum ameti consecte.
+                                    34 Bach Dang street, Hai Chau district, Da Nang city
                                     </p>
                                 </div>
                             </div>
@@ -83,14 +83,14 @@ const Lesson = () => {
                         >
                             <div className="coursesCard -type-2 text-center pt-50 pb-40 px-30 rounded-8 bg-white shadow-2">
                                 <div className="coursesCard__image">
-                                    <img src="img/home-5/learning/4.svg" alt="image" />
+                                    <img src="img/home-9/hero/2.png" alt="image" />
                                 </div>
                                 <div className="coursesCard__content mt-30">
                                     <h5 className="coursesCard__title text-18 lh-1 fw-500">
-                                        Industrial Standart
+                                    Callie
                                     </h5>
                                     <p className="coursesCard__text text-14 mt-10">
-                                        Grursus mal suada faci lisis that ipsum ameti consecte.
+                                    34 Bach Dang street, Hai Chau district, Da Nang city
                                     </p>
                                 </div>
                             </div>
