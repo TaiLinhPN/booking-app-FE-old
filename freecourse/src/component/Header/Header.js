@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link} from 'react-router-dom';
 export default class Header extends Component {
     render() {
         return (
@@ -125,9 +126,9 @@ export default class Header extends Component {
                                     <div className="menu js-navList">
                                         <ul className="menu__nav text-white -is-active">
                                             <li className="menu-item-has-children">
-                                                <a data-barba href="#">
-                                                    Home <i className="icon-chevron-right text-13 ml-10" />
-                                                </a>
+                                            <Link to={'/'} className="nav-link" href="#">Home
+ <i className="icon-chevron-right text-13 ml-10" /></Link>
+                                                
                                                 <ul className="subnav">
                                                     <li className="menu__backButton js-nav-list-back">
                                                         <a href="#"><i className="icon-chevron-left text-13 mr-10" /> Home</a>
@@ -337,7 +338,7 @@ export default class Header extends Component {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a data-barba href="contact-1.html">Contact</a>
+                                            <Link to={'/ContactUs'} className="nav-link" href="#">ContactUs</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -376,8 +377,8 @@ export default class Header extends Component {
                             <div className="col-auto">
                                 <div className="header-right d-flex items-center">
                                     <div className="header-right__buttons d-flex items-center ml-30 md:d-none">
-                                        <a href="login.html" className="button -underline text-white">Log in</a>
-                                        <a href="signup.html" className="button -sm -white text-dark-1 ml-30">Sign up</a>
+                                    <Link to={'/Login'}  className="button -underline text-white" href="#">Log in</Link>
+                                    <Link to={'/SignUp'} className="button -sm -white text-dark-1 ml-30" href="#">Sign up</Link>
                                     </div>
                                 </div>
                             </div>
