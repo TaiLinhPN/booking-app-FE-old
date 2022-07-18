@@ -1,13 +1,13 @@
 import React from "react"
 import Banner from "./chidrenContent/Banner";
 import HomeOption from "./chidrenContent/homeOptions";
-import Lesson from "./chidrenContent/Lesson";
+import Teacher from "./chidrenContent/Teacher";
 const Home=()=>{
     return(
         <>
         <Banner/>
         <HomeOption/>
-        <Lesson/>
+        <Teacher/>
         
         </>
     )

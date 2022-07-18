@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Lesson = () => {
+const Teacher = () => {
     return (
         <>
 
@@ -102,4 +102,4 @@ const Lesson = () => {
         </>
     )
 }
-export default Lesson;
+export default Teacher;
