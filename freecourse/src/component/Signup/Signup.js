@@ -4,7 +4,7 @@ export default class SignUp extends Component {
     render() {
         return (
             <div>
-               
+
                 <div className="content-wrapper  js-content-wrapper">
                     <section className="form-page">
                         <div className="form-page__img bg-dark-1">
@@ -30,6 +30,17 @@ export default class SignUp extends Component {
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">Username *</label>
+                                                    <input type="text" name="title" placeholder="Name" />
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">Job</label>
+                                                    <select id="jobs">
+                                                        <option value="teacher">Teacher</option>
+                                                        <option value="student">Student</option>
+                                                    </select>
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">Address</label>
                                                     <input type="text" name="title" placeholder="Name" />
                                                 </div>
                                                 <div className="col-lg-6">

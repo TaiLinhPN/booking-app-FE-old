@@ -28,6 +28,13 @@ export default class Login extends Component {
                                                     <input type="text" name="title" placeholder="Name" />
                                                 </div>
                                                 <div className="col-12">
+                                                    <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">Job</label>
+                                                    <select id="jobs">
+                                                        <option value="teacher">Teacher</option>
+                                                        <option value="student">Student</option>
+                                                    </select>
+                                                </div>
+                                                <div className="col-12">
                                                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">Password</label>
                                                     <input type="password" name="title" placeholder="Password" />
                                                 </div>
